@@ -40,8 +40,8 @@
             android:id="@+id/radioButton2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Spring Boot"
-            android:layout_gravity="center" />
+            android:layout_gravity="center"
+            android:text="Spring Boot" />
 
     </RadioGroup>
 
