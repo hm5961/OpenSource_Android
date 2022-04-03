@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2018038036 김현민"
+        android:textAlignment="center" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="300dp">
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="300dp">
+
+            <ScrollView
+                android:id="@+id/scroll_View1"
+                android:layout_width="wrap_content"
+                android:layout_height="300dp"
+                android:fillViewport="true"
+                android:fadingEdge="none">
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="800dp"
+                    android:layout_height="800dp"
+                    android:adjustViewBounds="true"/>
+
+            </ScrollView>
+
+        </HorizontalScrollView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="120dp"
+            android:text="▲" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginRight="120dp"
+            android:layout_marginLeft="150dp"
+            android:text="▼" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="300dp">
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="300dp">
+
+            <ScrollView
+                android:id="@+id/scroll_View2"
+                android:layout_width="wrap_content"
+                android:layout_height="300dp"
+                android:fillViewport="true"
+                android:fadingEdge="none">
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="800dp"
+                    android:layout_height="800dp"
+                    android:adjustViewBounds="true"/>
+
+            </ScrollView>
+
+        </HorizontalScrollView>
+    </LinearLayout>
+
+
+
+</LinearLayout>
