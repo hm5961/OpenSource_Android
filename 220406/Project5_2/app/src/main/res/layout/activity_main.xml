@@ -5,6 +5,13 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="2018038036 김현민" />
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -30,7 +37,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:orientation="vertical"
-                android:background="#fff200">
+                android:background="#ffff00">
             </LinearLayout>
 
             <LinearLayout
@@ -47,6 +54,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="#0000FF"
-        android:layout_weight="1"
-        android:backgroundTint="#1d2f89"></LinearLayout>
+        android:layout_weight="1">
+
+    </LinearLayout>
 </LinearLayout>
