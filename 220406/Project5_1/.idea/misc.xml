@@ -3,8 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+<<<<<<< HEAD
         <entry key="..\:/Github/Open_Source_Android/220406/Project5_1/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.20185185185185187" />
         <entry key="..\:/Github/Open_Source_Android/220406/Project5_1/app/src/main/res/layout/activity_main.xml" value="0.14945652173913043" />
+=======
+        <entry key="..\:/Github/Open_Source_Android/220406/Project5_1/app/src/main/res/layout/activity_main.xml" value="0.29891304347826086" />
+>>>>>>> a27f0bf06e5ba45be0a360c1f2bd15b19e9b7398
       </map>
     </option>
   </component>
