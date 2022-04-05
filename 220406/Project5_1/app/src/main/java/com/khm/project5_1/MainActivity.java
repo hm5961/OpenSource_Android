@@ -15,31 +15,18 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        //setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_main);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
         getSupportActionBar().setIcon(R.drawable.icon_android);
 
-        LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(
-                LinearLayout.LayoutParams.MATCH_PARENT,
-                LinearLayout.LayoutParams.MATCH_PARENT);
-        LinearLayout baseLayout = new LinearLayout(this);
-        baseLayout.setOrientation(LinearLayout.VERTICAL);
-        baseLayout.setBackgroundColor(Color.rgb(0,255,0));
-        setContentView(baseLayout,params);
+        Button btn1, btn2, btn3;
 
-        TextView name = new TextView(this);
-        name.setText("2018038036 김현민");
+        btn1 = (Button) findViewById(R.id.Btn1);
+        btn2 = (Button) findViewById(R.id.Btn2);
+        btn3 = (Button) findViewById(R.id.Btn3);
 
-        Button btn = new Button(this);
-        btn.setText("버튼입니다");
-        btn.setBackgroundColor(Color.MAGENTA);
-        baseLayout.addView(btn);
-
-        btn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Toast.makeText(MainActivity.this,"코드로 생성한 버튼입니다.",Toast.LENGTH_SHORT).show();
-            }
-        });
+//        btn1.setBackgroundColor(Color.GREEN);
+//        btn2.setBackgroundColor(Color.GREEN);
+//        btn3.setBackgroundColor(Color.GREEN);
     }
 }
