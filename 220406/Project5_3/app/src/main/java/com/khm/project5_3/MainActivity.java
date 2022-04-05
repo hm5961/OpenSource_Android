@@ -13,12 +13,14 @@ import android.widget.TextView;
 public class MainActivity extends AppCompatActivity {
     private EditText edit;
     private Button btn;
-    private TextView text;
+    private TextView text,name;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         //setContentView(R.layout.activity_main);
+        getSupportActionBar().setDisplayShowHomeEnabled(true);
+        getSupportActionBar().setIcon(R.drawable.icon_android);
 
         LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(
                 LinearLayout.LayoutParams.MATCH_PARENT,
@@ -27,6 +29,10 @@ public class MainActivity extends AppCompatActivity {
         LinearLayout baseLayout = new LinearLayout(this);
         baseLayout.setOrientation(LinearLayout.VERTICAL);
         setContentView(baseLayout,params);
+
+        name = new TextView(this);
+        name.setText("2018038036 김현민");
+        baseLayout.addView(name);
 
         edit = new EditText(this);
         baseLayout.addView(edit);
@@ -38,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
 
         text = new TextView(this);
         text.setTextSize(20);
-        text.setTextColor(Color.MAGENTA;
+        text.setTextColor(Color.MAGENTA);
         baseLayout.addView(text);
 
         btn.setOnClickListener(new View.OnClickListener() {
