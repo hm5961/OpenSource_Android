@@ -30,14 +30,13 @@
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="match_parent"
-        android:layout_height="fill_parent"
-        android:layout_marginTop="0dp"
-        android:layout_marginBottom="0dp"
+        android:layout_width="422dp"
+        android:layout_height="614dp"
         android:text="버튼 2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button1"
+        app:layout_constraintTop_toStartOf="@+id/button3"
         app:layout_constraintVertical_weight="1" />
 
     <Button
