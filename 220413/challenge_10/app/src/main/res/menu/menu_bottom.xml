@@ -3,21 +3,20 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <item
-        android:id="@+id/tab1"
-        app:showAsAction="ifRoom"
+        android:id="@+id/menu1"
+        app:showAsAction="always"
         android:enabled="true"
-        android:icon="@android:drawable/ic_dialog_email"
-        android:title="이메일" />
+        android:title="@string/menu1" />
+
     <item
-        android:id="@+id/tab2"
-        app:showAsAction="ifRoom"
-        android:icon="@android:drawable/ic_dialog_info"
-        android:title="정보" />
+        android:id="@+id/menu2"
+        app:showAsAction="always"
+        android:title="@string/menu2" />
+
     <item
-        android:id="@+id/tab3"
-        app:showAsAction="ifRoom"
-        android:enabled="true"
-        android:icon="@android:drawable/ic_dialog_map"
-        android:title="위치" />
+        android:id="@+id/menu3"
+        app:showAsAction="always"
+        android:title="@string/menu3" />
+
 
 </menu>
