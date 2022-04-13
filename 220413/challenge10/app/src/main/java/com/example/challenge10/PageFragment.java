@@ -1,5 +1,4 @@
-package com.khm.challenge_10;
-
+package com.example.challenge10;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -43,5 +42,4 @@ public class PageFragment extends Fragment {
 
         return rootView;
     }
-
 }

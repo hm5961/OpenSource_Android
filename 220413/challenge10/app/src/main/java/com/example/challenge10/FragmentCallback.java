@@ -1,9 +1,7 @@
-package com.khm.challenge_10;
+package com.example.challenge10;
 
 import android.os.Bundle;
 
 public interface FragmentCallback {
-
     public void onFragmentSelected(int position, Bundle bundle);
-
 }
