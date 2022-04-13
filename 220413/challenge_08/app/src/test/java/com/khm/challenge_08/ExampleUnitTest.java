@@ -1,4 +1,4 @@
-package com.khm.challenge_07;
+package com.khm.challenge_08;
 
 import org.junit.Test;
 
