@@ -8,7 +8,7 @@
         android:layout_height="wrap_content"
         android:text="2018038036 김현민"
         android:gravity="center"/>
-    
+
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="wrap_content"
