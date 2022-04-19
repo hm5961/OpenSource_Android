@@ -6,11 +6,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#523469">
+    android:background="#FF0000">
 
-    <Button
-        android:id="@+id/button1"
+    <TextView
+        android:id="@+id/name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="첫번째" />
+        android:gravity="center"
+        android:text="2018038036 김현민" />
 </LinearLayout>
